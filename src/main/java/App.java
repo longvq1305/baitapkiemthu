@@ -22,11 +22,11 @@ public class App {
         }
         cuoc *= (1 - voucher / 100.0);
         cuoc *= 1.1;
-        return Math.floor(cuoc * 10) / 10.0;
+        return Math.floor(cuoc * 10) / 10.0;    
     }
 
     public static void main(String[] args) {
-        double gia = TinhPhiDichVu(5, 5, 5, false);
+        double gia = TinhPhiDichVu(50, 5, 50, true);
         System.out.println("Giá cước: " + gia + " VND");
     }
 }
